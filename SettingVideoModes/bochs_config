@@ -1,0 +1,8 @@
+megs: 128
+romimage: file=/home/tibi/Downloads/bochs-2.7.pre1/bios/BIOS-bochs-latest
+vgaromimage: file=/home/tibi/Downloads/bochs-2.7.pre1/bios/VGABIOS-lgpl-latest-debug
+floppya: 1_44=build/main_floppy.img, status=inserted
+boot: floppy
+mouse: enabled=0
+display_library: x, options="gui_debug"
+vga: extension=vbe
